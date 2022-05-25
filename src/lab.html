@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .body {
+            background-color: gray;
+        }
+
+        .numberOneContainer {
+            display: flex;
+            flex-flow: column-reverse wrap;
+            height: 350px;
+            width: 400px;
+        }
+
+        .numberOneContainer div {
+            text-align: start;
+            height: 64px;
+            width: 64px;
+            background-color: orange;
+            margin-top: 50px;
+        }
+
+        .numberOneContainer div:nth-child(3) {
+            margin-left: 150px;
+        }
+
+        .numberOneContainer div:nth-child(2) {
+            margin-left: 68px;
+        }
+
+        .numberOneContainer div:nth-child(5) {
+            margin-right: 68px;
+        }
+        
+        .numberOneContainer div:nth-child(4) {
+            margin-left: 68px;
+        }
+
+        
+
+        .numberTwoContainer {
+            display: flex;
+            flex-flow: wrap;
+            width: 513px;
+        }
+
+        .numberTwoContainer div {
+            text-align: start;
+            background-color: orange;
+            height: 90px;
+            width: 64px;
+        }
+
+        .numberTwoContainer div:first-child {
+            background-color:greenyellow;
+        }
+        
+        .numberTwoContainer div:last-child {
+            background-color:greenyellow;
+            width: 100%;
+        }
+
+        .numberThreeContainer {
+            display: flex;
+            flex-flow: wrap;
+            background-color: blue;
+            width: 192px;
+            height: 192px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .numberThreeContainer div:first-child{
+            background-color: yellow;
+            width: 128px;
+            height: 128px;
+        }
+        .numberThreeContainer div div:first-child {
+            background-color: red;
+            width: 64px;
+            height: 64px;
+            margin-top: 32px;
+            margin-left: 32px;
+        }
+
+        .numberFourContainer {
+            display: flex;
+            flex-flow: wrap;
+            border-color: black;
+            border: 10px;
+            border: solid;
+            width: 320px;
+            height: 260px;
+        }
+
+        .numberFourContainer div {
+            background-color: blue;
+            height: 86px;
+            width: 86px;
+            margin-top: 5px;
+            margin-left: 5px;
+            border-radius: 5px;
+        }
+        
+        .numberFourContainer div:nth-child(2)
+        {
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    1)
+    <div class="numberOneContainer">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>5</div>
+        <div>4</div>
+    </div>
+    2)
+    <div class="numberTwoContainer">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+    </div>
+    3)
+    <div class="numberThreeContainer">
+        <div>
+            <div></div>
+        </div>
+    </div>
+    4)
+    <div class="numberFourContainer">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
